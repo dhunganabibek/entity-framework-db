@@ -1,4 +1,6 @@
 ﻿
+using System.ComponentModel.Design;
+
 Console.WriteLine("Hello, World!");
 
 int[] nums = {1,2,3,4,5,6,7,8,9};
@@ -19,4 +21,15 @@ var query = from n in nums
 // query is executed here
 foreach(int n in query){
     Console.WriteLine(n);
+}
+
+List<string> names = ["Houston", "Austin", "Dallas", "Lubbock"];
+
+var strquery = from n in names
+                where n.Length == 6
+                select n.ToUpper();
+
+
+foreach(var item in  strquery){
+    System.Console.WriteLine(item);
 }
