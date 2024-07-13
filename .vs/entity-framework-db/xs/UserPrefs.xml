@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{FE552375-4BCE-4AD3-97B1-52E64ED0F3B0}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.entity-framework-db PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="sqlserver/README.md">
+    <Files>
+      <File FileName="sqlserver/README.md" Line="2" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="entity-framework-db" expanded="True">
+            <Node name="entity-framework-db" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="sqlserver" expanded="True">
+                <Node name="README.md" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -57,3 +57,8 @@ foreach (var item in name.Split(' ')){
 }
 
 
+var folder = Environment.SpecialFolder.LocalApplicationData;
+var path = Environment.GetFolderPath(folder);
+var DbPath = System.IO.Path.Join(path, "blogging.db");
+
+System.Console.WriteLine(DbPath);
