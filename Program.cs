@@ -51,4 +51,9 @@ Func<int, int> myfunc2 = delegate (int x) {return x * 2;};
 System.Console.WriteLine(myfunc1(10));
 System.Console.WriteLine(myfunc2(20));
 
+var name = "Bibek Dhungana";
+foreach (var item in name.Split(' ')){
+    System.Console.WriteLine(item);
+}
+
 
