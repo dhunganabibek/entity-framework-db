@@ -43,3 +43,12 @@ var q1 = nums.Where(i => i % 2  == 0).Select(n => n);
 foreach(var item in q1){
     System.Console.WriteLine(item);
 }
+
+
+Func<int, int> myfunc1 = x => x * 2;
+Func<int, int> myfunc2 = delegate (int x) {return x * 2;};
+
+System.Console.WriteLine(myfunc1(10));
+System.Console.WriteLine(myfunc2(20));
+
+
