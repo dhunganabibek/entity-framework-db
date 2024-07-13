@@ -1,5 +1,6 @@
 ﻿
 using System.ComponentModel.Design;
+using System.Runtime.CompilerServices;
 
 Console.WriteLine("Hello, World!");
 
@@ -36,3 +37,9 @@ foreach(var item in  strquery){
 int a = 10;
 
 System.Console.WriteLine(a.GetType());
+
+var q1 = nums.Where(i => i % 2  == 0).Select(n => n);
+
+foreach(var item in q1){
+    System.Console.WriteLine(item);
+}
