@@ -19,8 +19,11 @@ public class BloggingContext: DbContext{
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-       optionsBuilder.UseSqlite($"Data Source={DbPath}");
+        var connectionString = "server=localhost;database=test;user=root;password=Test123@";
+        optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
     }
+
+    
 }
 
 public class Blog
