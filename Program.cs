@@ -32,3 +32,7 @@ var strquery = from n in names
 foreach(var item in  strquery){
     System.Console.WriteLine(item);
 }
+
+int a = 10;
+
+System.Console.WriteLine(a.GetType());
