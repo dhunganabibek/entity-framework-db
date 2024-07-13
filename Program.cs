@@ -26,8 +26,7 @@ foreach(int n in query){
 List<string> names = ["Houston", "Austin", "Dallas", "Lubbock"];
 
 var strquery = from n in names
-                where n.Length == 6
-                select n.ToUpper();
+                select new { Upper = n.ToUpper(), Lower = n.ToLower()};
 
 
 foreach(var item in  strquery){
